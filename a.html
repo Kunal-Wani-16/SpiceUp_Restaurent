@@ -1,0 +1,195 @@
+<div class='modal fade' id='myEditModal' role='dialog'>
+    <div class='modal-dialog modal-lg'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <button type='button' class='close' data-dismiss='modal'>&times;</button>
+          <h4 class='modal-title'>Modal Header</h4>
+        </div>
+        <div class='modal-body'>
+          <p>This is a large modal.</p>
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>';
+
+
+
+
+<form>
+    <div class='form-group'>
+      <label for='exampleInputEmail1'>Email address</label>
+      <input type='email' class='form-control' id='exampleInputEmail1' aria-describedby='emailHelp' placeholder='Enter email'>
+      <small id='emailHelp' class='form-text text-muted'>We'll never share your email with anyone else.</small>
+    </div>
+    <div class='form-group'>
+      <label for='exampleInputPassword1'>Password</label>
+      <input type='password' class='form-control' id='exampleInputPassword1' placeholder='Password'>
+    </div>
+    <div class='form-check'>
+      <input type='checkbox' class='form-check-input' id='exampleCheck1'>
+      <label class='form-check-label' for='exampleCheck1'>Check me out</label>
+    </div>
+    <button type='submit' class='btn btn-primary'>Submit</button>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+  <html>
+  <head>
+    <link
+      rel='stylesheet'
+      href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'
+    />
+  </head>
+  <body>
+    <div class='container'>
+      <div
+        class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 edit_information'
+      >
+        <form action='' method='POST'>
+          <h3 class='text-center'>Edit Personal Information</h3>
+          <div class='row'>
+            <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+              <div class='form-group'>
+                <label class='profile_details_text'>Name: </label>
+                <input
+                  type='text'
+                  name='last_name'
+                  class='form-control'
+                  value=''
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+              <div class='form-group'>
+                <label class='profile_details_text'>Email Address:</label>
+                <input
+                  type='email'
+                  name='email'
+                  class='form-control'
+                  value=''
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+              <div class='form-group'>
+                <label class='profile_details_text'>Mobile Number:</label>
+                <input
+                  type='tel'
+                  name='phone'
+                  class='form-control'
+                  value=''
+                  required
+                  pattern='[0-9]{10}'
+                />
+              </div>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 submit'>
+              <div class='form-group'>
+                <input type='submit' class='btn btn-success' value='Submit' />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+<form action='update_form.php' method='POST'>
+    <h3 class='text-center'>Edit Personal Information</h3>
+    <div class='row'>
+      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+        <div class='form-group'>
+          <label class='profile_details_text'>Name: </label>
+          <input
+            type='text'
+            name='last_name'
+            class='form-control'
+            value=''
+            required
+          />
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+        <div class='form-group'>
+          <label class='profile_details_text'>Email Address:</label>
+          <input
+            type='email'
+            name='email'
+            class='form-control'
+            value=''
+            required
+          />
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+        <div class='form-group'>
+          <label class='profile_details_text'>Mobile Number:</label>
+          <input
+            type='tel'
+            name='phone'
+            class='form-control'
+            value=''
+            required
+            pattern='[0-9]{10}'
+          />
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+        <div class='form-group'>
+          <label class='profile_details_text'>Username:</label>
+          <input
+            type='tel'
+            name='phone'
+            class='form-control'
+            value=''
+            required
+            pattern='[0-9]{10}'
+          />
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 submit'>
+        <div class='form-group'>
+          <input type='submit' class='btn btn-success' value='Submit' />
+        </div>
+      </div>
+    </div>
+  </form>
